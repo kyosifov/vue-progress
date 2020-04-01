@@ -55,7 +55,6 @@ export default {
       default: 'linear'
     },
     svgStyle: Object,
-    text: Object,
     fill: String,
     from: Object,
     to: Object,
@@ -94,7 +93,6 @@ export default {
       }
 
       if (this.svgStyle) _options.svgStyle = this.svgStyle
-      if (this.text) _options.text = this.text
       if (this.fill) _options.fill = this.fill
       if (this.from) _options.from = this.from
       if (this.to) _options.to = this.to
